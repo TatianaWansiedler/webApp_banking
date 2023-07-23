@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+html {
+  width: 100vw;
+  height: 100%;
+}
+
+:root {
+  /* colors */
+  --main-color: #7974dd;
+  --secondary-green: #cadf62;
+  --secondary-pink: #F05D88;
+ 
+
+  --backg-color: #eff0f6;
+
+  --text-title: #170f49;
+  --text-main: #514f6e;
+  --text-secondary: #b8b8b8;;
+   --btns-hover-color: #8983fb;
+
+
+  /* sizes */
+  --page-container: 90%;
+}

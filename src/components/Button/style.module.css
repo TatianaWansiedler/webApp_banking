@@ -1,0 +1,30 @@
+.outlined,
+.contained {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 40px;
+}
+.contained {
+  background: var(--main-color);
+  color: #fff;
+}
+.outlined {
+  border: 2px solid var(--main-color);
+  background: var(--backg-color);
+  color: var(--main-color);
+}
+
+.outlined:hover {
+  background-color: var(--btns-hover-color);
+  color: #fff;
+  border: 2px solid var(--btns-hover-color);
+  transition: all 0.3s;
+}
+.contained:hover {
+  background-color: var(--btns-hover-color);
+  transition: all 0.3s;
+}

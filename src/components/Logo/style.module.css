@@ -1,0 +1,9 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo h3 {
+  font-size: 24px;
+  color: var(--text-title);
+}

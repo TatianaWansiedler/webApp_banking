@@ -1,0 +1,26 @@
+.title {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 114%;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox p,
+.login p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 300;
+}
+.policy,
+.login a {
+  color: var(--secondary-green);
+  font-weight: 400;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
