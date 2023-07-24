@@ -1,15 +1,17 @@
 import React, { FC, ReactNode } from 'react';
-import s from './style.module.css'
+import styles from './style.module.css'
 
-interface Props { 
-    children?: ReactNode;
+interface FormContainerProps { 
     width?: string;
-    height?: string
+    height?: string;
+    children: ReactNode;
+    title?: string;
 }
 
-const FormContainer: FC<Props> = ({ children, width, height }) => {
+const FormContainer: FC<FormContainerProps> = ({ width, height, children, title }) => {
     return (
-        <div className={s.container} style={{ width, height}}>
+        <div className={styles.container} style={{ width, height }}>
+            <h2 className={ styles.title }>{title}</h2>
             { children }
         </div>
     );

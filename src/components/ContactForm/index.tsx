@@ -5,7 +5,6 @@ import Button from '../Button';
 import { Variants_btn } from '../../utils';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import styles from './style.module.css'
 
 const subjects = [ 'subject1', 'subject2', 'subject3'];
 
@@ -15,10 +14,10 @@ const ContactForm = () => {
     }
     return (
         <div>
-            <FormContainer width='100%'>
-                <h2 className={ styles.title}>
-                    Contact Form
-                </h2>
+            <FormContainer
+                width='100%'
+                title='Contact Form'
+            >
                 <TextField
                     label="Name"
                     variant="outlined"

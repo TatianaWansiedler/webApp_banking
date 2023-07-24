@@ -3,7 +3,7 @@ import s from './slyle.module.css'
 import { NavLink } from 'react-router-dom';
 import Button from '../../components/Button';
 import { Variants_btn } from '../../utils';
-import cards_img from '../../assets/pic3.png'
+import img from '../../assets/pic3.png'
 import Logo from '../../components/Logo';
 
 
@@ -36,11 +36,13 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className={ s.poster}>
-                        <img src={cards_img} alt="cards"/>
+                        <img src={img} alt="cards"/>
                     </div>
-                    
                 </div>
-                
+                <div>Servieces</div>
+                <div>FAQs</div>
+                <div>Supported by</div>
+                <div>Footer</div>
             </div>
         </div>
     );

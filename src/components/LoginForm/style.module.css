@@ -1,0 +1,14 @@
+.login {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.login a {
+  color: var(--secondary-green);
+  font-weight: 400;
+}
+.login p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 300;
+}

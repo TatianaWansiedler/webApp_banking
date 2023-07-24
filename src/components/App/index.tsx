@@ -3,7 +3,6 @@ import './index.css'
 import { Route, Routes } from 'react-router-dom';
 import HomePage from '../../pages/HomePage';
 import ContactUsPage from '../../pages/ContactUsPage';
-import AboutPage from '../../pages/AboutPage';
 import LoginPage from '../../pages/LoginPage';
 import RegisterPage from '../../pages/RegisterPage';
 
@@ -14,7 +13,6 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/contact_us' element={<ContactUsPage/>} />
-        <Route path='/about' element={<AboutPage/>} />
         <Route path='/login_page' element={<LoginPage/>} />
         <Route path='/register_page' element={<RegisterPage/>} />
       </Routes>

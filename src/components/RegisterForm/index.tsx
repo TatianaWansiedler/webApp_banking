@@ -3,11 +3,9 @@ import FormContainer from '../FormContainer';
 import { Checkbox, InputAdornment, TextField } from '@mui/material';
 import Button from '../Button';
 import { Variants_btn } from '../../utils';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import styles from './style.module.css'
 import { Link } from 'react-router-dom';
+import { EmailOutlined, LockOutlined, PersonOutlineOutlined } from '@mui/icons-material';
 
 const RegisterForm = () => {
     const onSubmit = () => { 
@@ -16,10 +14,10 @@ const RegisterForm = () => {
 
     return (
         <div>
-            <FormContainer width='100%'>
-                <h2 className={ styles.title}>
-                    Register
-                </h2>
+            <FormContainer
+                width='100%'
+                title='Register'
+            >
                 <TextField
                     label="Name"
                     variant="outlined"
@@ -29,7 +27,7 @@ const RegisterForm = () => {
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">
-                                <PersonOutlineOutlinedIcon />
+                                <PersonOutlineOutlined />
                             </InputAdornment>
                         ),
                     }}
@@ -43,7 +41,7 @@ const RegisterForm = () => {
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">
-                                <EmailOutlinedIcon/>
+                                <EmailOutlined/>
                             </InputAdornment>
                         ),
                     }}
@@ -57,7 +55,7 @@ const RegisterForm = () => {
                     InputProps={{
                         endAdornment: (
                             <InputAdornment position="end">
-                                <LockOutlinedIcon/>
+                                <LockOutlined/>
                             </InputAdornment>
                         ),
                     }}
