@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/webApp_banking/static/css/main.32d15e74.css",
+    "main.js": "/webApp_banking/static/js/main.c0044e8a.js",
+    "static/media/Payoneer.svg": "/webApp_banking/static/media/Payoneer.130e19b1e19c9eaccc826a570892a991.svg",
+    "static/media/visa.svg": "/webApp_banking/static/media/visa.88d73c9e1f1ded85ec45f20cdd0899d0.svg",
+    "static/media/PayPal.svg": "/webApp_banking/static/media/PayPal.59b5f3b25f1d4d1f55ad0172bee34075.svg",
+    "static/media/Mastercard.svg": "/webApp_banking/static/media/Mastercard.4ac135a57391278cc62a686c00d739a8.svg",
+    "static/media/pic3.png": "/webApp_banking/static/media/pic3.e5fe7274852b36399771.png",
+    "static/media/arrow.svg": "/webApp_banking/static/media/arrow.88e899ca3546699537a01320ca2daf54.svg",
+    "static/media/logo.svg": "/webApp_banking/static/media/logo.944f6589e2f980c2fde403d0822a9268.svg",
+    "index.html": "/webApp_banking/index.html",
+    "main.32d15e74.css.map": "/webApp_banking/static/css/main.32d15e74.css.map",
+    "main.c0044e8a.js.map": "/webApp_banking/static/js/main.c0044e8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d15e74.css",
+    "static/js/main.c0044e8a.js"
+  ]
+}
