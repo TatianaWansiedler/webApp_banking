@@ -1,0 +1,50 @@
+.footer {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: space-between;
+}
+.info {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.soc_media {
+    display: flex;
+    gap: 10px;
+}
+.soc_media svg {
+    cursor: pointer;
+}
+.navigation {
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+.help,
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.help a,
+.about a {
+    display: block;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 160%; /* 38.4px */
+}
+.help h3,
+.about h3 {
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: 500;
+}

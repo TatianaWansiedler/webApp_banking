@@ -3,10 +3,10 @@ import styles from './style.module.css'
 import { Facebook, Instagram, Twitter } from '@mui/icons-material';
 import Logo from '../../components/Logo';
 
-interface Props { 
+interface Props {
     title: string,
     descr: string,
-    form: ReactNode
+    form?: ReactNode
 }
 
 const MainLayout: FC<Props> = ({ title, descr, form }) => {
@@ -22,14 +22,14 @@ const MainLayout: FC<Props> = ({ title, descr, form }) => {
                             <p className={styles.text}>{descr}</p>
                         </div>
                         <div className={styles.soc_media}>
-                            <Facebook fontSize='large' sx={{color: "var(--main-color)"}} />
-                            <Instagram fontSize='large' sx={{color: "var(--main-color)"}}/>
-                            <Twitter fontSize='large' sx={{color: "var(--main-color)"}} />
+                            <Facebook fontSize='large' sx={{ color: "var(--main-color)" }} />
+                            <Instagram fontSize='large' sx={{ color: "var(--main-color)" }} />
+                            <Twitter fontSize='large' sx={{ color: "var(--main-color)" }} />
                         </div>
                     </div>
                     <div className={styles.form_container}>
                         {form}
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
